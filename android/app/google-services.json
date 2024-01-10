@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720375538114",
+    "project_id": "macapp-ffdae",
+    "storage_bucket": "macapp-ffdae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720375538114:android:9448edbbb32ce43149365b",
+        "android_client_info": {
+          "package_name": "com.example.mac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmFTnkC7bJmFh-oSYS7UF-tXEWUZE1T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
