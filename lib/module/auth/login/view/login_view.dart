@@ -12,13 +12,11 @@ class LoginView extends StatefulWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
-              child: Image.asset(
-                "assets/logo/logo.png",
-                // width: 120.0,
-                height: 120.0,
-                fit: BoxFit.cover,
-              ),
+            Image.asset(
+              "assets/logo/logo.png",
+              // width: 120.0,
+              height: 120.0,
+              fit: BoxFit.cover,
             ),
             Container(
                 // width: 400,

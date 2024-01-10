@@ -40,33 +40,28 @@ class CalculatorDzikirView extends StatefulWidget {
                           children: [
                             Expanded(
                               flex: 2,
-                              child: Container(
-                                child: Center(
-                                  child: Text(
-                                    controller.tasbih.toString(),
-                                    style: const TextStyle(
-                                        fontSize: 30, color: Colors.black),
-                                  ),
+                              child: Center(
+                                child: Text(
+                                  controller.tasbih.toString(),
+                                  style: const TextStyle(
+                                      fontSize: 30, color: Colors.black),
                                 ),
                               ),
                             ),
                             Expanded(
-                              child: Container(
-                                child: Center(
-                                  child: SizedBox(
-                                    width: 28.0,
-                                    height: 28.0,
-                                    child: ElevatedButton(
-                                      style: ElevatedButton.styleFrom(
-                                        padding: const EdgeInsets.all(0.0),
-                                        backgroundColor: Colors.blue,
-                                      ),
-                                      onPressed: () =>
-                                          controller.updateTasbih(),
-                                      child: const Icon(
-                                        Icons.add,
-                                        size: 16.0,
-                                      ),
+                              child: Center(
+                                child: SizedBox(
+                                  width: 28.0,
+                                  height: 28.0,
+                                  child: ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                      padding: const EdgeInsets.all(0.0),
+                                      backgroundColor: Colors.blue,
+                                    ),
+                                    onPressed: () => controller.updateTasbih(),
+                                    child: const Icon(
+                                      Icons.add,
+                                      size: 16.0,
                                     ),
                                   ),
                                 ),
@@ -112,32 +107,28 @@ class CalculatorDzikirView extends StatefulWidget {
                           children: [
                             Expanded(
                               flex: 2,
-                              child: Container(
-                                child: Center(
-                                  child: Text(
-                                    controller.tahmid.toString(),
-                                    style: const TextStyle(
-                                        fontSize: 30, color: Colors.black),
-                                  ),
+                              child: Center(
+                                child: Text(
+                                  controller.tahmid.toString(),
+                                  style: const TextStyle(
+                                      fontSize: 30, color: Colors.black),
                                 ),
                               ),
                             ),
                             Expanded(
-                              child: Container(
-                                child: Center(
-                                  child: SizedBox(
-                                    width: 28.0,
-                                    height: 28.0,
-                                    child: ElevatedButton(
-                                      style: ElevatedButton.styleFrom(
-                                        padding: const EdgeInsets.all(0.0),
-                                        backgroundColor: Colors.blue,
-                                      ),
-                                      onPressed: controller.updateTahmid,
-                                      child: const Icon(
-                                        Icons.add,
-                                        size: 16.0,
-                                      ),
+                              child: Center(
+                                child: SizedBox(
+                                  width: 28.0,
+                                  height: 28.0,
+                                  child: ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                      padding: const EdgeInsets.all(0.0),
+                                      backgroundColor: Colors.blue,
+                                    ),
+                                    onPressed: controller.updateTahmid,
+                                    child: const Icon(
+                                      Icons.add,
+                                      size: 16.0,
                                     ),
                                   ),
                                 ),
@@ -184,34 +175,30 @@ class CalculatorDzikirView extends StatefulWidget {
                           children: [
                             Expanded(
                               flex: 2,
-                              child: Container(
-                                child: Center(
-                                  child: Text(
-                                    controller.takbir.toString(),
-                                    style: const TextStyle(
-                                      fontSize: 30,
-                                      color: Colors.black,
-                                    ),
+                              child: Center(
+                                child: Text(
+                                  controller.takbir.toString(),
+                                  style: const TextStyle(
+                                    fontSize: 30,
+                                    color: Colors.black,
                                   ),
                                 ),
                               ),
                             ),
                             Expanded(
-                              child: Container(
-                                child: Center(
-                                  child: SizedBox(
-                                    width: 28.0,
-                                    height: 28.0,
-                                    child: ElevatedButton(
-                                      style: ElevatedButton.styleFrom(
-                                        padding: const EdgeInsets.all(0.0),
-                                        backgroundColor: Colors.blue,
-                                      ),
-                                      onPressed: controller.updateTakbir,
-                                      child: const Icon(
-                                        Icons.add,
-                                        size: 16.0,
-                                      ),
+                              child: Center(
+                                child: SizedBox(
+                                  width: 28.0,
+                                  height: 28.0,
+                                  child: ElevatedButton(
+                                    style: ElevatedButton.styleFrom(
+                                      padding: const EdgeInsets.all(0.0),
+                                      backgroundColor: Colors.blue,
+                                    ),
+                                    onPressed: controller.updateTakbir,
+                                    child: const Icon(
+                                      Icons.add,
+                                      size: 16.0,
                                     ),
                                   ),
                                 ),

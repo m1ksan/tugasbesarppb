@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../model/todo.dart';
 // import 'package:flutter_firebase_firestore_tutorial/models/todo.dart';
 
-const String TODO_COLLECTON_REF = "todos";
+const String todoCollectionRef = "todos";
 
 class TodoService {
   final _firestore = FirebaseFirestore.instance;
@@ -11,7 +11,7 @@ class TodoService {
   late final CollectionReference _todosRef;
 
   TodoService() {
-    _todosRef = _firestore.collection(TODO_COLLECTON_REF).withConverter<Todo>(
+    _todosRef = _firestore.collection(todoCollectionRef).withConverter<Todo>(
         fromFirestore: (snapshots, _) => Todo.fromJson(
               snapshots.data()!,
             ),
