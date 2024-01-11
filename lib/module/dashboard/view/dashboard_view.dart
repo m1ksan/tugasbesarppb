@@ -17,7 +17,7 @@ class DashboardView extends StatefulWidget {
             actions: [
               TextButton(
                 onPressed: () {
-                  Get.back(); // Close the dialog
+                  Get.back();
                 },
                 child: const Text('Batal'),
               ),
@@ -32,10 +32,6 @@ class DashboardView extends StatefulWidget {
     }
 
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text("Dashboard"),
-      //   actions: const [],
-      // ),
       backgroundColor: Colors.green,
       body: SafeArea(
         child: SingleChildScrollView(
@@ -45,9 +41,6 @@ class DashboardView extends StatefulWidget {
               children: [
                 Image.asset(
                   "assets/logo/logoapp.png",
-                  // width: 120.0,
-                  // height: 120.0,
-                  // fit: BoxFit.fill,
                 ),
                 SizedBox(
                   child: Row(
@@ -132,7 +125,6 @@ class DashboardView extends StatefulWidget {
                   height: 20.0,
                 ),
                 SizedBox(
-                  // height: 200.0,
                   child: Row(
                     children: [
                       Container(
@@ -142,12 +134,7 @@ class DashboardView extends StatefulWidget {
                         ),
                         width: MediaQuery.of(context).size.width / 2.5,
                         child: InkWell(
-                          onTap: () {
-                            // Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(builder: (context) => qiblah()),
-                            // );
-                          },
+                          onTap: () {},
                           child: Column(
                             children: [
                               SizedBox(
@@ -208,7 +195,6 @@ class DashboardView extends StatefulWidget {
                   height: 20.0,
                 ),
                 SizedBox(
-                  // height: 200.0,
                   child: Row(
                     children: [
                       Container(

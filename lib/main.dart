@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:mac/module/auth/login/view/login_view.dart';
+import 'package:mac/module/splash_app/view/splash_app_view.dart';
 // import 'package:mac/firebase_options.dart';
 import 'package:mac/state_util.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // home: LoginScreen(),
-      home: const LoginView(),
+      home: const SplashAppView(),
       routes: {
         '/login': (context) => const LoginView(),
       },
